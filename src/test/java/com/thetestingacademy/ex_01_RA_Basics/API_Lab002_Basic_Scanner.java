@@ -4,7 +4,7 @@ import io.restassured.RestAssured;
 
 import java.util.Scanner;
 
-public class API_Lab_002 {
+public class API_Lab002_Basic_Scanner {
     public static void main(String[] args) {
 
         // Gherkins Syntax

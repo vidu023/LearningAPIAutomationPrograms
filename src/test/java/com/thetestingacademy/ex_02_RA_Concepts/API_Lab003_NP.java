@@ -1,6 +1,6 @@
 package com.thetestingacademy.ex_02_RA_Concepts;
 
-public class API_Lab_003 {
+public class API_Lab003_NP {
 
      // NoDesignPattern
 
@@ -17,10 +17,10 @@ public class API_Lab_003 {
     }
 
     public static void main(String[] args) {
-        API_Lab_003 np = new API_Lab_003();
+        API_Lab003_NP np = new API_Lab003_NP();
         np.step1();
         np.step2();
-        np.step3("Pramod");
+        np.step3("Vidya");
     }
 
 

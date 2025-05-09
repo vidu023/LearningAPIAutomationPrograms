@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"TC#1 - Verify that the Create Booking is working fine, booking ID is not null","12740","test_createBooking_POST","Pincode Verification Project","Fri May 09 22:48:53 IST 2025","passed","Fri May 09 22:49:06 IST 2025","com.thetestingacademy.ex_06_TestNG_Assertions.API_Lab0231_RestAssured_Assertions","LearningAPIAutomationPrograms","com.thetestingacademy.ex_06_TestNG_Assertions.API_Lab0231_RestAssured_Assertions","test_createBooking_POST"

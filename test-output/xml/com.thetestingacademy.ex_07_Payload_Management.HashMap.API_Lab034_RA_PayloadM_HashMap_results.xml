@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LearningAPIAutomationPrograms"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="8.344">
+    <properties></properties>
+
+
+
+            <testcase
+                name="test_POST_RestfulBooker"
+                time="8.344"
+                classname="com.thetestingacademy.ex_07_Payload_Management.HashMap.API_Lab034_RA_PayloadM_HashMap">
+            </testcase>
+</testsuite>

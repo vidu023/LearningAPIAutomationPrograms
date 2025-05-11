@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LearningAPIAutomationPrograms"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.120">
+    <properties></properties>
+
+
+
+            <testcase
+                name="test_NonBDD_RestfulBooker_CreateBooking"
+                time="1.120"
+                classname="com.thetestingacademy.ex_04_RestAssured_HTTP_Method.POST.API_Lab016_POST_NonBDDStyle_RestfulBooker_CreateBooking">
+            </testcase>
+</testsuite>

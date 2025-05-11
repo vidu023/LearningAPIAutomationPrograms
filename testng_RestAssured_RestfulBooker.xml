@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Verify all HTTP Methods for Restful Booker Application">
+    <test verbose="2" preserve-order="true" name="LearningAPIAutomationPrograms">
+
+        <classes>
+            <class name="com.thetestingacademy.ex_04_RestAssured_HTTP_Method.GET.API_Lab036_NonBDDStyle_RestfulBooker_PingHealthCheck"/>
+            <class name="com.thetestingacademy.ex_04_RestAssured_HTTP_Method.GET.API_Lab011_GET_NonBDDStyle_RestfulBooker_AllBookings"/>
+            <class name="com.thetestingacademy.ex_04_RestAssured_HTTP_Method.POST.API_Lab014_POST_NonBDDStyle_RestfulBooker_CreateToken"/>
+            <class name="com.thetestingacademy.ex_04_RestAssured_HTTP_Method.POST.API_Lab016_POST_NonBDDStyle_RestfulBooker_CreateBooking"/>
+            <class name="com.thetestingacademy.ex_04_RestAssured_HTTP_Method.GET.API_Lab012_GET_NonBDDStyle_RestfulBooker_BookingId"/>
+            <class name="com.thetestingacademy.ex_04_RestAssured_HTTP_Method.PUT.API_Lab_017_NonBDD_PUT_RestfulBooker_UpdateBooking"/>
+            <class name="com.thetestingacademy.ex_04_RestAssured_HTTP_Method.GET.API_Lab012_GET_NonBDDStyle_RestfulBooker_BookingId"/>
+            <class name="com.thetestingacademy.ex_04_RestAssured_HTTP_Method.PATCH.API_Lab_018_NonBDD_PATCH_RestfulBooker_UpdatePartialBooking"/>
+            <class name="com.thetestingacademy.ex_04_RestAssured_HTTP_Method.GET.API_Lab012_GET_NonBDDStyle_RestfulBooker_BookingId"/>
+            <class name="com.thetestingacademy.ex_04_RestAssured_HTTP_Method.DELETE.API_Lab_019_NonBDD_DELETE_RestfulBooker_DeleteBooking"/>
+            <class name="com.thetestingacademy.ex_04_RestAssured_HTTP_Method.GET.API_Lab012_GET_NonBDDStyle_RestfulBooker_BookingId"/>
+
+        </classes>
+
+    </test>
+</suite>

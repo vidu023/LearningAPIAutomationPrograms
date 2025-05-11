@@ -13,7 +13,7 @@ public class API_Lab012_GET_NonBDDStyle_RestfulBooker_BookingId {
         ValidatableResponse vr;
 
         @Test
-        public void test_GET_RestfulBooker_BookingId() {
+        public void test_GET_Positive_RestfulBooker_BookingId() {
 
         String bookingId = "1200";
 
@@ -30,7 +30,7 @@ public class API_Lab012_GET_NonBDDStyle_RestfulBooker_BookingId {
     }
 
     @Test
-    public void test_GET_Negative_RestfulBooker_Booking(){
+    public void test_GET_Negative_RestfulBooker_BookingId(){
 
         String bookingId = "585";
 

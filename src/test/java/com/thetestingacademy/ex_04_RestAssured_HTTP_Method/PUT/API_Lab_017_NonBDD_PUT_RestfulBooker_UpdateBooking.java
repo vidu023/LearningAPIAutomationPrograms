@@ -11,8 +11,8 @@ public class API_Lab_017_NonBDD_PUT_RestfulBooker_UpdateBooking {
 
     // https://restful-booker.herokuapp.com/booking/:id
 
-    String bookingId = "3322";
-    String token = "421e16fb94b7084";
+    String bookingId = "4595";
+    String token = "0d45427af9612e7";
     String payload = "{\n" +
             "    \"firstname\" : \"James\",\n" +
             "    \"lastname\" : \"Patterson\",\n" +
@@ -30,7 +30,7 @@ public class API_Lab_017_NonBDD_PUT_RestfulBooker_UpdateBooking {
     ValidatableResponse vr;
 
     @Test
-    public void test_NonBDD_RestfulBooker_UpdateBooking(){
+    public void test_PUT_RestfulBooker_UpdateBooking(){
         // Given
         rs = RestAssured.given();
         rs.baseUri("https://restful-booker.herokuapp.com");

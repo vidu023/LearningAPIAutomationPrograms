@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Verify all HTTP Methods for Restful Booker Application">
+    <test verbose="2" preserve-order="true" name="C:\Users\Vaishak Kini\IdeaProjects\LearningAPIAutomationPrograms\src\test\java\com\thetestingacademy\ex_04_RestAssured_HTTP_Method">
+
+        <classes>
+            <class name="com.thetestingacademy.ex_04_RestAssured_HTTP_Method.GET.API_Lab036_NonBDDStyle_RestfulBooker_PingHealthCheck">
+                <methods>
+                    <include name="test_GET_RestfulBooker_PingHealthCheck"/>
+                </methods>
+            </class>
+        </classes>
+
+        <classes>
+            <class name="com.thetestingacademy.ex_04_RestAssured_HTTP_Method.GET.API_Lab011_GET_NonBDDStyle_RestfulBooker_AllBookings">
+                <methods>
+                    <include name="test_GET_RestfulBooker_Booking"/>
+                </methods>
+            </class>
+        </classes>
+
+        <classes>
+            <class name="com.thetestingacademy.ex_04_RestAssured_HTTP_Method.POST.API_Lab014_POST_NonBDDStyle_RestfulBooker_CreateToken">
+                <methods>
+                    <include name="test_Post_CreateToken_RestfulBooker"/>
+                </methods>
+            </class>
+        </classes>
+
+        <classes>
+            <class name="com.thetestingacademy.ex_04_RestAssured_HTTP_Method.POST.API_Lab016_POST_NonBDDStyle_RestfulBooker_CreateBooking">
+                <methods>
+                    <include name="test_NonBDD_RestfulBooker_CreateBooking"/>
+                </methods>
+            </class>
+        </classes>
+
+        <classes>
+            <class name="com.thetestingacademy.ex_04_RestAssured_HTTP_Method.GET.API_Lab012_GET_NonBDDStyle_RestfulBooker_BookingId">
+                <methods>
+                    <include name="test_GET_Positive_RestfulBooker_BookingId"/>
+                    <include name="test_GET_Negative_RestfulBooker_BookingId"/>
+                </methods>
+            </class>
+        </classes>
+
+        <classes>
+            <class name="com.thetestingacademy.ex_04_RestAssured_HTTP_Method.PUT.API_Lab_017_NonBDD_PUT_RestfulBooker_UpdateBooking">
+                <methods>
+                    <include name="test_PUT_RestfulBooker_UpdateBooking"/>
+                </methods>
+            </class>
+        </classes>
+
+        <classes>
+            <class name="com.thetestingacademy.ex_04_RestAssured_HTTP_Method.GET.API_Lab012_GET_NonBDDStyle_RestfulBooker_BookingId">
+                <methods>
+                    <include name="test_GET_Positive_RestfulBooker_BookingId"/>
+                    <include name="test_GET_Negative_RestfulBooker_BookingId"/>
+                </methods>
+            </class>
+        </classes>
+
+        <classes>
+            <class name="com.thetestingacademy.ex_04_RestAssured_HTTP_Method.PATCH.API_Lab_018_NonBDD_PATCH_RestfulBooker_UpdatePartialBooking">
+                <methods>
+                    <include name="test_PATCH_RestfulBooker_UpdatePartialBooking"/>
+                </methods>
+            </class>
+        </classes>
+
+        <classes>
+            <class name="com.thetestingacademy.ex_04_RestAssured_HTTP_Method.GET.API_Lab012_GET_NonBDDStyle_RestfulBooker_BookingId">
+                <methods>
+                    <include name="test_GET_Positive_RestfulBooker_BookingId"/>
+                    <include name="test_GET_Negative_RestfulBooker_BookingId"/>
+                </methods>
+            </class>
+        </classes>
+
+        <classes>
+            <class name="com.thetestingacademy.ex_04_RestAssured_HTTP_Method.DELETE.API_Lab_019_NonBDD_DELETE_RestfulBooker_DeleteBooking">
+                <methods>
+                    <include name="test_DELETE_RestfulBooker_DeleteBooking"/>
+                </methods>
+            </class>
+        </classes>
+
+        <classes>
+            <class name="com.thetestingacademy.ex_04_RestAssured_HTTP_Method.GET.API_Lab012_GET_NonBDDStyle_RestfulBooker_BookingId">
+                <methods>
+                    <include name="test_GET_Positive_RestfulBooker_BookingId"/>
+                    <include name="test_GET_Negative_RestfulBooker_BookingId"/>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+</suite>

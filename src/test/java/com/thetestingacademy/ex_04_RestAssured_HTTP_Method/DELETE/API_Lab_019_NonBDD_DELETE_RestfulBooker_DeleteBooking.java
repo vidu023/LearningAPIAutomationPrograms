@@ -11,15 +11,15 @@ public class API_Lab_019_NonBDD_DELETE_RestfulBooker_DeleteBooking {
 
     // https://restful-booker.herokuapp.com/booking/:id
 
-    String bookingId = "13";
-    String token = "733b571d276e69d";
+    String bookingId = "3999";
+    String token = "0d45427af9612e7";
 
     RequestSpecification rs;
     Response r;
     ValidatableResponse vr;
 
     @Test
-    public void test_NonBDD_RestfulBooker_DeleteBooking(){
+    public void test_DELETE_RestfulBooker_DeleteBooking(){
         // Given
         rs = RestAssured.given();
         rs.baseUri("https://restful-booker.herokuapp.com");
